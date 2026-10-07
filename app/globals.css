@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth}body{@apply bg-white text-neutral-900 antialiased overflow-x-hidden}
+:focus-visible{@apply outline-2 outline-offset-2 outline-accent}
+.btn{@apply inline-flex min-h-11 items-center justify-center gap-2 rounded-xl px-5 text-sm font-semibold transition active:scale-95}
+.btn-primary{@apply btn bg-brand text-white hover:opacity-90}
+.btn-wa{@apply btn bg-[#25D366] text-white hover:opacity-90}
+.btn-ghost{@apply btn border border-neutral-300 hover:bg-neutral-50}
